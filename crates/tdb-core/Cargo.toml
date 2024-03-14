@@ -36,3 +36,6 @@ version = "0.8.2"
 [features]
 default = []
 count_alloc = ["alloc_counter"]
+
+[lib]
+crate-type= ['dylib']
